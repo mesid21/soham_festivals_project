@@ -12,12 +12,12 @@ header {
     background-color: #ffa60d;
     padding-top: 10px;
     color: white;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #bf1b1b;
 }
 
@@ -31,6 +31,7 @@ p {
     color: rgb(255, 255, 255);
     padding-bottom: 20px;
     text-align: center;
+    font-size: 12px;
 }
 
 .festival-container {
