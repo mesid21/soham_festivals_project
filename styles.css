@@ -8,9 +8,28 @@ body {
 
 header {
     background-color: #ff9800;
-    padding: 10px;
+    padding-top: 10px;
     color: white;
     font-size: 18px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #a52a2a;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.credits {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
 }
 
 .festival-container {
@@ -54,15 +73,4 @@ header {
     margin: 20px auto; /* Centers the text */
     padding-top: 20px; /* Adds space above */
 }
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 
