@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #ffa60d;
-    padding-top: 10px;
+    padding: 8px;
 }
 
 h1 {
@@ -22,13 +22,6 @@ h1 {
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-}
-
-.credits {
-    color: #000000;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 12px;
 }
 
 .festival-container {
@@ -66,10 +59,22 @@ p {
 }
 
 .festival-description {
-    width: 800px; /* Fixed width */
-    max-width: 90%; /* Ensures it resizes on smaller screens */
+    width: 800px;
+    max-width: 90%;
     text-align: justify;
-    margin: 20px auto; /* Centers the text */
-    padding-top: 20px; /* Adds space above */
+    margin: 20px auto;
+    padding-top: 20px;
 }
 
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 3px 10px 1px 10px;
+}
