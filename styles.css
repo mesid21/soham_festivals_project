@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #ffa60d;
-    padding: 8px;
+    padding: 5px 6px;
 }
 
 h1 {
@@ -37,6 +37,10 @@ p {
     color: black;
     text-align: center;
     width: 150px;
+}
+
+.festival-container a > p {
+    margin: 5px;
 }
 
 .festival-container img {
@@ -76,5 +80,5 @@ footer {
 }
 
 footer p {
-    padding: 3px 10px 1px 10px;
+    padding: 0px 10px;
 }
